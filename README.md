@@ -16,9 +16,13 @@ google/pegasus-large
 The models were ranked based on the following metrics:
 
 ROUGE-1 (+): Higher ROUGE-1 score is better.
+
 ROUGE-2 (+): Higher ROUGE-2 score is better.
+
 ROUGE-L (+): Higher ROUGE-L score is better.
+
 Inference Time (ms) (-): Lower inference time is better.
+
 Model Size (MB) (-): Smaller model size is better.
 
 Note:
@@ -36,6 +40,7 @@ ROUGE-1: 35%
 ROUGE-2: 30%
 ROUGE-L: 20%
 Inference Time: 15%
+
 3. Ideal Best & Worst Values
 The ideal best and worst values for each metric were determined based on the normalized data. The best value represents the highest performance (for ROUGE scores) and the lowest for cost criteria (inference time and model size).
 
