@@ -36,10 +36,10 @@ Each metric was normalized using vector normalization to standardize the results
 2. Weight Assignment
 We assigned weights to the metrics based on their importance in evaluating the models:
 
-ROUGE-1: 35%
-ROUGE-2: 30%
-ROUGE-L: 20%
-Inference Time: 15%
+  ROUGE-1: 35%
+  ROUGE-2: 30%
+  ROUGE-L: 20%
+  Inference Time: 15%
 
 3. Ideal Best & Worst Values
 The ideal best and worst values for each metric were determined based on the normalized data. The best value represents the highest performance (for ROUGE scores) and the lowest for cost criteria (inference time and model size).
